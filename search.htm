@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>抓取百度sss关键字</title>
+    <link href="Scripts/StyleSheet.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="Scripts/JScript2.js" type="text/javascript"></script>
+</head>
+<body>
+    <form style="text-align: center" id="form1" runat="server">
+    <br />  <br />  <br />  <br />  <br />  <br />  <br />
+    <input style="width:500px;"  url="true" id="Text1" type="text" placeholder="请输入" /><br/>
+    <div style="display: none; position: absolute;" id="allSitesBoxHdl" class="classlist"
+        onmouseover="this.style.display='block'" onmouseout="this.style.display='none'">
+        <ul id="allSitesBoxContent">
+        </ul>
+    </div>
+    <script type="text/javascript">        Init();</script>
+    </form>
+</body>
+</html>
